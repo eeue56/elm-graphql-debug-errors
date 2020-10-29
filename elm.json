@@ -1,0 +1,18 @@
+{
+    "type": "package",
+    "name": "eeue56/elm-graphql-debug-errors",
+    "summary": "Get useful error messages from GraphQL errors in English",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": [
+        "DebugView.Graphql"
+    ],
+    "elm-version": "0.19.1 <= v <= 0.19.2",
+    "dependencies": {
+        "dillonkearns/elm-graphql": "5.0.3 <= v < 6.0.0",
+        "elm/core": "1.0.2 <= v < 2.0.0",
+        "elm/http": "2.0.0 <= v < 3.0.0",
+        "elm/json": "1.1.3 <= v < 2.0.0"
+    },
+    "test-dependencies": {}
+}
