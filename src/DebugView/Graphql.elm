@@ -1,12 +1,17 @@
 module DebugView.Graphql exposing (graphqlErrorToString)
 
+{-|
+@docs graphqlErrorToString
+-}
+
 import Graphql.Http exposing (HttpError(..))
 import Graphql.Http.GraphqlError
 import Http
 import Json.Decode
 import Json.Encode
 
-
+{-| Turn a GraphQL Http Error into a string in English
+-}
 graphqlErrorToString : Graphql.Http.Error a -> String
 graphqlErrorToString err =
     case err of
